@@ -1,3 +1,5 @@
+### Status Page for people to see the status of reflector links such as allstar, echolink, and bridges! Example found here: https://kotalinkstatus.kidsontheair.net/
+
 Install on debian:
  
  - `sudo -s`
