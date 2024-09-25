@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>System Status</h1>
+    <div class="status">
+      <div class="service">
+        <h2>Allstar</h2>
+        <p class="<%= allstarStatus === 'Online' ? 'online' : 'offline' %>"><%= allstarStatus %></p>
+      </div>
+      <div class="service">
+        <h2>Echolink</h2>
+        <p class="<%= echolinkStatus === 'Online' ? 'online' : 'offline' %>"><%= echolinkStatus %></p>
+      </div>
+      <div class="service">
+        <h2>DMR Bridge TGIF 350</h2>
+        <p class="<%= dmrBridgeStatus === 'Online' ? 'online' : 'offline' %>"><%= dmrBridgeStatus %></p>
+      </div>
+      <div class="service">
+        <h2>YSF Bridge</h2>
+        <p class="<%= ysfBridgeStatus === 'Online' ? 'online' : 'offline' %>"><%= ysfBridgeStatus %></p>
+      </div>
+      <div class="service">
+        <h2>P25 Bridge</h2>
+        <p class="<%= p25BridgeStatus === 'Online' ? 'online' : 'offline' %>"><%= p25BridgeStatus %></p>
+      </div>
+      <div class="service">
+        <h2>P25/YSF Reflector</h2>
+        <p class="<%= reflectorStatus === 'Online' ? 'online' : 'offline' %>"><%= reflectorStatus %></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
