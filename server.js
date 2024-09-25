@@ -3,7 +3,7 @@ const axios = require('axios');
 const { exec } = require('child_process');
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 // Middleware to use EJS as the view engine
 app.set('view engine', 'ejs');
