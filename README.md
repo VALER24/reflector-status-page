@@ -8,3 +8,9 @@ Install on debian:
  - `npm install express ejs axios child_process`
  - `npm i`
  - `node server.js`
+
+To run daemon:
+
+ - `mv reflector_status_page.service /etc/systemd/system/reflector_status_page.service`
+ - `systemctl enable reflector_status_page`
+ - `systemctl start reflector_status_page`
